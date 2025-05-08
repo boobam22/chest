@@ -1,0 +1,5 @@
+menuentry "Slax" {
+    search --no-floppy --fs-uuid --set=root f1064508-ce59-44c3-b009-d7f010e284ed
+    linux /slax/boot/vmlinuz
+    initrd /slax/boot/initrfs.img
+}
