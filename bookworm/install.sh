@@ -26,11 +26,15 @@ cat << EOF | sudo tee /etc/sing-box/web-ui.json > /dev/null
     }
 }
 EOF
-cat << 'EOF' | sudo tee /etc/cron.hourly/update-proxy.sh > /dev/null
+cat << 'EOF' | sudo tee /etc/cron.daily/update-proxy > /dev/null
+#!/bin/sh
+
+. /etc/profile.d/env.sh
 curl -fsSL $PROXY_SUBSCRIPTION -H "User-Agent: sing-box" > /tmp/tmpfile \
     && [ -s /tmp/tmpfile ] \
     && sudo mv /tmp/tmpfile /etc/sing-box/remote.json
 EOF
+sudo chmod u+x /etc/cron.daily/update-proxy
 
 sudo systemctl enable --now sing-box
 sleep 10 && curl -I https://google.com --max-time 5
