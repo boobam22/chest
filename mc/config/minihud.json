@@ -1,0 +1,34 @@
+{
+  "Generic": {
+    "axolotlTooltips": true,
+    "dateFormatMinecraft": "MC time: (day {DAY}) {HOUR}:{MIN}",
+    "inventoryPreviewEnabled": true
+  },
+  "InfoTypeToggles": {
+    "infoTimeIRL": false,
+    "infoWorldTimeFormatted": true,
+    "infoCoordinates": false,
+    "infoBlockPosition": true,
+    "infoServerTPS": true,
+    "infoBiomeRegistryName": true,
+    "infoRegionFile": true,
+    "infoLookingAtBlock": true
+  },
+  "RendererHotkeys": {
+    "overlayLightLevel": {
+      "keys": "H,L"
+    },
+    "§6overlayStructureMainToggle§r": {
+      "keys": "H,S"
+    },
+    "shapeRenderer": {
+      "keys": "H,R"
+    }
+  },
+  "StructureToggles": {
+    "Nether Fortress": true,
+    "Ocean Monument": true,
+    "Witch Hut": true
+  },
+  "config_version": 1
+}

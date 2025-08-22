@@ -1,0 +1,34 @@
+{
+  "Generic": {
+    "toolItem": "minecraft:crafting_table"
+  },
+  "Hotkeys": {
+    "easyPlaceToggle": {
+      "keys": "RIGHT_ALT"
+    },
+    "executeOperation": {
+      "keys": "M,X"
+    },
+    "layerModeNext": {
+      "keys": "M,UP"
+    },
+    "layerModePrevious": {
+      "keys": "M,DOWN"
+    },
+    "layerNext": {
+      "keys": "UP"
+    },
+    "layerPrevious": {
+      "keys": "DOWN"
+    },
+    "layerSetHere": {
+      "keys": "RIGHT_SUPER"
+    },
+    "schematicEditReplaceBlock": {
+      "keys": "L"
+    }
+  },
+  "InfoOverlays": {
+    "blockInfoLinesEnabled": false
+  }
+}
